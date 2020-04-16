@@ -35,7 +35,7 @@ export default function Cards({
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
-              number of active cases of Covid-19
+              Number of active cases of COVID-19
             </Typography>
           </CardContent>
         </Grid>
@@ -62,7 +62,7 @@ export default function Cards({
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
-              number of recoveries of Covid-19
+              Number of recoveries of COVID-19
             </Typography>
           </CardContent>
         </Grid>
@@ -89,7 +89,7 @@ export default function Cards({
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
-              Number of deaths caused by Covid-19
+              Number of deaths caused by COVID-19
             </Typography>
           </CardContent>
         </Grid>
