@@ -6,8 +6,9 @@ import styles from "./CountryPicker.module.css";
 export default function CountryPicker({ handleCountryChange }) {
   const [fetchedCountries, setFetchedCountries] = useState([]);
   useEffect(() => {
-    const response = async () => setFetchedCountries(await fetchCountries());
-    response();
+    const fetched_countries = async () =>
+      setFetchedCountries(await fetchCountries());
+    fetched_countries();
   }, []);
 
   return (
